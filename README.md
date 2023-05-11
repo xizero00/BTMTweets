@@ -17,8 +17,12 @@ The reason why BitermTopicModel is used is that Twitter data is usually some sho
 ```
 pip install biterm
 ```
+or install the biterm use the modifed version from my own repo.
+ ```
+pip install git+https://github.com/xizero00/biterm.git
+ ```
 
-**Step 1.** Modify the code in the package
+**Step 1.** Modify the code in the package (if you use my own repo, you do not need to perform this action)
 
 You should replace the `btm.py` and `utility.py` in the BTM package with the two files we provided in `replace_file`
 
@@ -40,8 +44,8 @@ BitermTopicModel-ChatGPT/
 │   └── tweets_by_topic.csv
 │
 ├── models/ - default directory for storing input data
-│   ├── btm_model_2023-04-22-13-40-46_1iter.pkl - Model weight file for 1 iteration 
-│   ├── btm_model_2023-04-22-13-58-46_5iter.pkl - Model weight file for 5 iteration
+│   ├── btm_model_2023-04-22-13-40-46_1iter.pkl - Model weight file for 1 iteration (gibbs sampling 1 iteration)
+│   ├── btm_model_2023-04-22-13-58-46_5iter.pkl - Model weight file for 5 iteration (gibbs sampling 5 iteration)
 │   ├── btm_topics_2023-04-22-13-40-46_1iter.pkl - Topic probability distribution file for 1 iteration
 │   └── btm_topics_2023-04-22-13-58-46_5iter.pkl - Topic probability distribution file for 5 iteration
 │

@@ -17,7 +17,7 @@ The reason why BitermTopicModel is used is that Twitter data is usually some sho
 ```
 pip install biterm
 ```
-or install the biterm use the modifed version from my own repo.
+or install the biterm of the modifed version from my own repo.
  ```
 pip install git+https://github.com/xizero00/biterm.git
  ```
